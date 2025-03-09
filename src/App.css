@@ -1,0 +1,52 @@
+@import "tailwindcss";
+:root{
+  --back-color:  #195f3f;
+}
+
+.active { background: var(--back-color);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Rubik+Vinyl&display=swap');
+.rubik-vinyl-regular {
+    font-family: "Rubik Vinyl", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .emblema-one-regular {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.playwrite-it-moderna {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .shade{
+    
+    text-Shadow: "2px 2px 4px red";
+  }
+  .bg-img{
+    background-image: url(./../public/—Pngtree—healthy\ diet_1329394.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:contain;
+    
+    
+  }
+.opacity0{
+    background: #96ebbcc5;
+}
+.opacityCategory{
+    background: #96ebbc25;
+}
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

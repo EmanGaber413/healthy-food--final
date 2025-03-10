@@ -24,7 +24,7 @@ export default function App(){
     <Route path='/Category' element={<Category/>}/>
     <Route path='/Products' element={<Products/>}/>
     <Route path='/ShowProduct/:product_code' element={<ShowProduct/>}/>
-    <Route path='/Showitems/:category' element={<Categoryitems/>}/>
+    <Route path='/Showitems/:category' element={<></>}/>
    
    
    </Routes>

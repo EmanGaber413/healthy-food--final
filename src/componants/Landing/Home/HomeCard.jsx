@@ -9,8 +9,8 @@ export default function HomeCard() {
        a vibrant life, providing essential nutrients that fuel our
        bodies and support overall well-being"</h1>
        <div className="  grid place-items-center">
-       <button className="relative px-6 py-2 bg-green-900 text-white rounded-lg shadow-md
-        hover:bg-green-700 transition text-sm ">
+       <button className="relative px-6 py-2 bg-green-900 text-white rounded-lg shadow-md 
+        hover:bg-green-700 transition text-xl ">
           Login
         </button>
         

@@ -13,8 +13,8 @@ export default function ProductCard({object}) {
 <div  className='grid md:grid-cols-2 lg:grid-cols-3 text-center justify-center items-center   '> 
     { object&&object.items.map((step, index)=>( 
   <div className='container px-4 flex flex-wrap items-center my-2 '>
-    <div key={index} className="product-card w-200 
-        bg-amber-200/40 md:h-100 h-auto rounded-2xl  ">
+    <div key={index} className="product-card w-100 
+        bg-amber-200/40 md:h-100  rounded-2xl  ">
     
         <div className="img-card"> 
           <img src={step.image} alt="" className='w-100 h-60 rounded-full p-2'/>

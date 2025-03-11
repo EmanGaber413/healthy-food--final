@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview",
-    "postinstall": "prisma generate"
+    "start": "vite preview"
   },
   "dependencies": {
     "@fontsource/emblema-one": "^5.2.5",

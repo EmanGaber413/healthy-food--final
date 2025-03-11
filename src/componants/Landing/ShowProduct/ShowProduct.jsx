@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 
 import {  useParams } from 'react-router'
-import Axiosinstance from '../../../Axios/Axios';
+import axiosinstance from '../../../axios/Axios';
 
 
 export default function ShowProduct() {
@@ -12,7 +12,7 @@ export default function ShowProduct() {
  const [showProduct,setShowProduct]=useState(null);
 
  useEffect(() => {
-  Axiosinstance.get(`products/${product_code}`)
+  axiosinstance.get(`products/${product_code}`)
     .then((resp) => resp.data)
     .then((data) => {
       setShowProduct(data);

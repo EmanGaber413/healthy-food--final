@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react"
-import Axiosinstance from "../Axios/Axios"
+import axiosinstance from "../axios/Axios"
 
 
 
@@ -10,7 +10,7 @@ export function ProductsContextProvider (props) {
      
     const [products,setProducts] = useState()
     useEffect(()=> {
-        Axiosinstance.get("category")
+        axiosinstance.get("category")
         .then((resp)=> (resp.data))
         .then((items)=>(setProducts(items.data) ))
     },[])

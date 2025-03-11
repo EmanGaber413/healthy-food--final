@@ -11,7 +11,7 @@ export default defineConfig({
 
    build: {
     outDir: 'dist' ,
-    base: './',
+    base: "/healthy-food/",
     rollupOptions: {
       external: ['axios']
     }

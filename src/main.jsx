@@ -10,7 +10,8 @@ import "@fontsource/emblema-one";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
+
 
    {/* <Helmet>
     <title>Healthy Food</title>

@@ -7,7 +7,7 @@ export default function Navbar() {
   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div className="relative flex h-16 items-center justify-between">
     <div className="flex shrink-0 items-center">
-          <img className="h-10 w-auto" src="./../../../public/—Pngtree—healthy diet_1329394.png" 
+          <img className="h-10 w-auto" src="/—Pngtree—healthy diet_1329394.png" 
           alt="Your Company"/>
           <h1 className='m-3 font-extrabold text-green-900 font-serif text-xl'>Healthy Food</h1>
         </div>

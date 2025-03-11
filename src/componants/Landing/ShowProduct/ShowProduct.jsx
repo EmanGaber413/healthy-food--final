@@ -2,7 +2,9 @@
 import React, { useEffect, useState } from 'react'
 
 import {  useParams } from 'react-router'
-import Axiosinstance from '../../../Axios/Axios';
+import Axiosinstance from '../../../axios/axios';
+
+
 
 
 export default function ShowProduct() {

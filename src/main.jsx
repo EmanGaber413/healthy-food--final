@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './App.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router'
-import { Helmet } from 'react-helmet'
+
 import "@fontsource/emblema-one";
 
 

@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
-import { Helmet } from 'react-helmet'
+
 import {  useParams } from 'react-router'
 import Axiosinstance from '../../../Axios/Axios';
 
@@ -45,10 +45,10 @@ export default function ShowProduct() {
   </div>
   
 
-  <Helmet>
+  {/* <Helmet>
   <title>Show Product</title>
   <meta name="description" content="Helmet application"  />
-  </Helmet>
+  </Helmet> */}
   
  
   

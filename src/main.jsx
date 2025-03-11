@@ -12,10 +12,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
   <BrowserRouter>
 
-   <Helmet>
+   {/* <Helmet>
     <title>Healthy Food</title>
     <meta name="description" content="Helmet application"  />
-    </Helmet>
+    </Helmet> */}
    
   
     <App/>

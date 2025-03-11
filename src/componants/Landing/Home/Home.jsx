@@ -5,10 +5,10 @@ import HomeCard from './HomeCard'
 
 export default function Home() {
   return <>
-  <Helmet>
+  {/* <Helmet>
   <title>Healthy Food</title>
   <meta name="description" content="Helmet application"  />
-  </Helmet>
+  </Helmet> */}
  <div className="">
   <HomeCard/>
   </div>

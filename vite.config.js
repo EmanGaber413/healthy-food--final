@@ -13,7 +13,7 @@ export default defineConfig({
     outDir: 'dist' ,
     base: './',
     rollupOptions: {
-      external: ['react-helmet']
+      external: ['react-helmet','axios']
     }
   }
 })

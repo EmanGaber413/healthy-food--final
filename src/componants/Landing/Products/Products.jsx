@@ -20,7 +20,7 @@ export default function Products() {
    and practice portion control. Remember, consistency is key to a healthy lifestyle!" </h1>
   <div className= 'px-15 gap-2 grid justify-center items-center'>
 
-{Products && Products.map((item)=>(<ProductCard key={item.product_code} object={item}/>))}
+{Products && Products.map((item,index)=>(<ProductCard key={item.product_code||index} object={item}/>))}
 
   </div>
 

@@ -11,7 +11,8 @@ export default function CategoryCard({object}) {
   return <>
   {/* {category&&category.filter((item2))} */}
   <a ></a>
-<Link to={"/Showitems/"+category}  className="product-card  my-1.5 md:w-60 bg-green-300 shadow-2xl shadow-yellow-950
+<Link to={"/Showitems/"+category}  className="product-card 
+ my-1.5 md:w-60 bg-green-300 shadow-2xl shadow-yellow-950
  rounded-full  text-center justify-around ">
    
     <div className=' justify-left md:p-3 p-1'>

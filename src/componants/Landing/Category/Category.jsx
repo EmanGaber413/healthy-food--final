@@ -17,7 +17,7 @@ export default function Category() {
   >Discover the world of healthy eating with us </h1>
 {console.log("Context Data in Category:", listOfCategory)}
 <div className=" grid justify-center items-center h-50 grid-cols-1 md:grid-cols-5">
- { listOfCategory && listOfCategory.map((item)=>(<CategoryCard  key={item.product_code} object={item}/> ))
+ { listOfCategory && listOfCategory.map((item,index)=>(<CategoryCard  key={item.product_code ||index} object={item}/> ))
   }
 </div>
   </div>

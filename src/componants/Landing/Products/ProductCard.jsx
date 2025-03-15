@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import Products from './Products'
 
 
 export default function ProductCard({object}) {
@@ -12,8 +13,8 @@ export default function ProductCard({object}) {
 
 <div  className='grid md:grid-cols-2 lg:grid-cols-3 text-center justify-center items-center   '> 
     { object&&object.items.map((step, index)=>( 
-  <div className='container px-4 flex flex-wrap items-center my-2 '>
-    <div key={index} className="product-card w-100 
+  <div key={index}  className='container px-4 flex flex-wrap items-center my-2 '>
+    <div className="product-card w-100 
         bg-amber-200/40 md:h-100  rounded-2xl  ">
     
         <div className="img-card"> 
@@ -34,6 +35,7 @@ export default function ProductCard({object}) {
                ))}
 
 </div> 
+
 
      </>                          }       
 

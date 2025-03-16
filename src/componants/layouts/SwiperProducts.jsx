@@ -32,12 +32,12 @@ export default function SwiperProducts({object,list}) {
 
        { object&&object.items.map((step, index)=>( 
         
-  <SwiperSlide key={index}  className='container px-4 flex flex-wrap items-center my-2 '>
-    <div className="product-card w-100 
-            bg-amber-200/40 md:h-100  rounded-2xl  ">
+  <SwiperSlide key={index}  className='container px-4 flex flex-wrap items-center my-2'>
+    <div className="product-card w-70 
+            bg-amber-200/40 md:h-auto  rounded-2xl  ">
         
-            <div className="img-card"> 
-              <img src={step.image} alt="" className='w-30 h-30 rounded-full p-2'/>
+            <div className="img-card flex justify-center"> 
+              <img src={step.image} alt="" className='w-60 h-40 rounded-full p-2'/>
             </div>
     
             <div className='  p-3 my-2'>
